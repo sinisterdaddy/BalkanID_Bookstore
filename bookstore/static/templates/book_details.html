@@ -1,0 +1,15 @@
+<!-- templates/book_detail.html -->
+{% extends "base.html" %}
+
+{% block content %}
+    <div id="book-details">
+        <h1>Book Title</h1>
+        <p>Author: <span id="author"></span></p>
+        <p>Genre: <span id="genre"></span></p>
+        <p>Description: <span id="description"></span></p>
+        <!-- Add more book details as needed -->
+    </div>
+    <button id="add-to-cart-button">Add to Cart</button>
+    <button id="leave-review-button">Leave a Review</button>
+    <script src="/static/js/book_detail.js"></script>
+{% endblock %}

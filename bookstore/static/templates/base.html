@@ -1,0 +1,28 @@
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <!-- Include additional CSS files as needed -->
+    <script src="/static/js/scripts.js"></script>
+    <!-- Include additional JavaScript files as needed -->
+</head>
+<body>
+    <header>
+        <!-- Define your header content here -->
+    </header>
+    
+    <main>
+        {% block content %}
+        <!-- This is where the content of child templates will be injected -->
+        {% endblock %}
+    </main>
+    
+    <footer>
+        <!-- Define your footer content here -->
+    </footer>
+</body>
+</html>

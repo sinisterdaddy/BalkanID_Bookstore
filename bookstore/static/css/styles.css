@@ -1,0 +1,22 @@
+/* static/css/styles.css */
+/* Add your CSS styling rules here */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Customize styles as needed */
+/* static/css/styles.css */
+/* Add responsive styles */
+@media screen and (max-width: 768px) {
+
+    /* Adjust styles for smaller screens */
+    .container {
+        padding: 10px;
+    }
+}

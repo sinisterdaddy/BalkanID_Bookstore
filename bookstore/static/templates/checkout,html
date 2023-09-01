@@ -1,0 +1,11 @@
+<!-- templates/checkout.html -->
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Checkout</h1>
+    <div id="cart-summary">
+        <!-- Display cart items and total price -->
+    </div>
+    <button id="place-order-button">Place Order</button>
+    <script src="/static/js/checkout.js"></script>
+{% endblock %}

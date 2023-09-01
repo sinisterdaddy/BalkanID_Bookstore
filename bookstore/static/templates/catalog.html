@@ -1,0 +1,20 @@
+<!-- templates/catalog.html -->
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Book Catalog</h1>
+    <div id="search-filter">
+        <input type="text" id="search-input" placeholder="Search by title or author">
+        <select id="filter-genre">
+            <option value="">All Genres</option>
+            <option value="Fiction">Fiction</option>
+            <option value="Non-Fiction">Non-Fiction</option>
+            <!-- Add more genre options as needed -->
+        </select>
+        <button id="apply-filter">Apply Filter</button>
+    </div>
+    <div id="book-list">
+        <!-- Book items will be added here dynamically -->
+    </div>
+    <script src="/static/js/catalog.js"></script>
+{% endblock %}
